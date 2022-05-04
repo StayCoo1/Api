@@ -5,7 +5,7 @@ let user = {
 
 fetch('https://smmpanelus.com/api/v2', {
     method: 'POST',
-    mode: 'no-cors',
+    //mode: 'no-cors',
     headers: {},
     body: JSON.stringify(user)
 }).then(res => console.log(res))
